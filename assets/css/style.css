@@ -1,0 +1,181 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.main {
+  height: 100vh;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+}
+
+.contactos {
+  flex: 1 1 20%;
+  border-right: 1px solid #dfdfdf;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status {
+  flex: 0 0 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status__contenedor {
+  width: 80%;
+  display: flex;
+}
+
+.status__image {
+  border-radius: 50%;
+  width: 35px;
+}
+
+.status__texto {
+  color: black;
+  flex: 1 0;
+  margin-left: 15px;
+}
+
+.status__nombre {
+  color: black;
+  font-size: 16px;
+}
+
+.status__actual {
+  color: #9fa2a2;
+  font-size: 12px;
+}
+
+.status__iconos {
+  color: #9fa2a2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  width: 45px;
+  cursor: pointer;
+}
+
+.status_chat {
+  margin-right: 10px;
+}
+
+.contactos__nuevo-chat {
+  flex: 0 0 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.contactos__boton {
+  background-color: #a491d3;
+  width: 70%;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contactos__boton:hover {
+  background-color: #ccc2e6;
+}
+
+.contactos__nuevo {
+  color: white;
+  font-size: 16px;
+}
+
+.contactos__contenedor {
+  flex: 1 0;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacto {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dfdfdf;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.contacto__imagen {
+  margin-left: 20px;
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.contacto__texto {
+  display: block;
+  flex: 1 0;
+}
+
+.contacto__nombre {
+  color: #3c3040;
+  font-size: 16px;
+}
+
+.contacto__last {
+  color: #3c3040;
+  font-size: 14px;
+}
+
+.principal {
+  flex: 1 1 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+.principal__contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal__imagen {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.principal__titulo {
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.principal__texto {
+  font-size: 16px;
+}
+
+.principal__chat {
+  font-weight: 800;
+}
